@@ -2,6 +2,13 @@
 
 # dependencies
 node_modules/
+# Project Specific Dependencies 
+/cloud-functions/node_modules
+/mobile-app/node_modules
+
+# Project Specific Expo Folders
+/mobile-app/.expo/
+/mobile-app/web-build/
 
 # Expo
 .expo/
@@ -33,6 +40,12 @@ yarn-error.*
 # local env files
 .env
 .env*.local
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
 # typescript
 *.tsbuildinfo
