@@ -1,0 +1,6 @@
+[build]
+  # The command to run the Expo web build
+  command = "npm run web"
+
+  # The directory where the final files are placed after the build
+  publish = "web-build"
