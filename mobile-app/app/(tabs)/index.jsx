@@ -296,5 +296,3 @@ useEffect(() => {
         </PaperProvider>
     );
 }
-
-// NOTE: The styles object is now defined at the top for structural stability.
