@@ -1,50 +1,12 @@
-# Welcome to your Expo app 👋
+### Live Testing Instructions
+The demo highlights the solution's core value: Zero-Touch, Automated Threat Remediation.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Observe the green state: When the application first loads, observe the security dashboard displaying a safe  Alert state with a high Security Score (e.g., 99) .simulate an attack 
 
-## Get started
+ (simulating an active phishing or ransomware attack).
 
-1. Install dependencies
+Observe the red: After the simulation, observe the security dashboard displaying a Red Alert state with a low Security Score (e.g., 45) and an explicit warning (simulating an active phishing or ransomware attack).
 
-   ```bash
-   npm install
-   ```
+Execute the Fix: Click the FIX IT NOW (Automated Repair) button. This simulates the proprietary AI/Cloud function triggering a background remediation process.
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Confirm Success: Observe the instant, non-loading screen transition to the Green Success State (Score 99), validating the speed and autonomous nature of the Kijani solution, which operates without requiring dedicated IT staff.
