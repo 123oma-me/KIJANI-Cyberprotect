@@ -1,3 +1,15 @@
 [build]
-  command = "npm run web"
-  publish = "web-build"
+  # Command to build the Expo web app
+  command = "npm run web" 
+  
+  # The folder Expo creates with the final website files
+  publish = "dist" 
+
+  # If your package.json is in a subfolder like 'mobile-app', uncomment the next line
+  # base = "mobile-app" 
+
+# Rule for Single Page Apps (like Expo Router) - redirects all paths to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
