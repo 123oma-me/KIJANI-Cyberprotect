@@ -288,7 +288,7 @@ useEffect(() => {
                     )}
                     
                     <TouchableOpacity onPress={fetchSecurityStatus} style={styles.refreshButton}>
-                        <Text style={styles.refreshText}>⟳ Manual Status Check (Returns to Green)</Text>
+                        <Text style={styles.refreshText}>⟳ Manual Status Check (Returns to red)</Text>
                     </TouchableOpacity>
 
                 </View> {/* End controlContainer */}
