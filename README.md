@@ -1,4 +1,4 @@
-### Live Testing Instructions
+###  Testing Instructions
 
 1.  **Observe the Red Alert:** When the app loads, note the low **Score (45)** and the explicit warning message (simulating a ransomware attack).
 2.  **Execute the Fix:** Click the **FIX IT NOW (Automated Repair)** button.
